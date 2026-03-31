@@ -1,0 +1,29 @@
+{
+  "name": "test30",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev --port 3000",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "npx nuxi typecheck"
+  },
+  "dependencies": {
+    "@google/genai": "^1.44.0",
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "autoprefixer": "^10.4.27",
+    "lucide-vue-next": "0.469.0",
+    "nuxt": "^4.3.1",
+    "postcss": "^8.5.8",
+    "tailwindcss": "^3.4.19",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "~5.8.2"
+  }
+}
