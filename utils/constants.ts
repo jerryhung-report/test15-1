@@ -850,7 +850,7 @@ export const QUESTIONS: Record<string, Question[]> = {
     {id:2,text:"市場大崩盤？那是特價入場券。",type:"range"},
     {id:3,text:"為了翻身，適度融資或加碼我OK。",type:"range"},
     {id:4,text:"慢慢存股超無聊，我沒空等三十年。",type:"range"},
-    {id:5,text:"買東西靠直覺，看研究不如靠Fu。",type:"range"},
+    {id:5,text:"買東西憑感覺，看數據不如靠直覺。",type:"range"},
     {id:6,text:"計畫太死，我喜歡看狀況隨機應變。",type:"range"},
     {id:7,text:"我不喜歡賠錢，但更怕錯過翻倍機會。",type:"range"},
     {id:8,text:"抽獎就拚 1% 大獎，小獎太無聊。",type:"range"},
@@ -860,7 +860,7 @@ export const QUESTIONS: Record<string, Question[]> = {
     {id:10,q:"來到宇宙樹苗交易所，你會選哪棵?",type:"choice",options:[{val:1,text:"安心麵包樹"},{val:4,text:"全能混種樹"},{val:7,text:"傑克魔豆樹"}]},
     {id:11,q:"我喜歡多摘果實落袋，不怕搖錢樹傷了根基。",type:"bool"},
     {id:12,q:"與其求穩，我更想賭一把未來的。",type:"bool"},
-    {id:13,q:"我不急著收成，寧願養分全回流（追求累積）。",type:"bool"},
+    {id:13,q:"我不急著收成，寧願養分全回流。",type:"bool"},
     {id:14,q:"我想在最短時間內，追求金幣自由。",type:"bool"},
     {id:15,q:"這棵樹不是留給下一代的，是我這一輩子要翻身用的。",type:"bool"}
   ]

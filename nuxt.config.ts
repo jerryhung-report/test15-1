@@ -32,15 +32,15 @@ export default defineNuxtConfig({
     head: {
       title: '基金平台人格測驗',
       meta: [
-        { name: 'description', content: '準備好探索你的基金人格了嗎？15題測驗，完成後即可立刻獲得你的投資風格定位分析報告與基金推薦！' },
+        { name: 'description', content: '準備好探索你的基金人格了嗎？15 題揭曉你的「口袋家族萌寵」，獲取專屬基金清單，讓萌寵帶你開啟投資第一步！' },
         { property: 'og:title', content: '基金平台人格測驗' },
-        { property: 'og:description', content: '準備好探索你的基金人格了嗎？15題測驗，完成後即可立刻獲得你的投資風格定位分析報告與基金推薦！' },
-        { property: 'og:image', content: 'https://www.cmoneyfund.com.tw/api/v1.0/File/Download/c76bc90c-f17b-4398-9a52-289738c40038' },
+        { property: 'og:description', content: '準備好探索你的基金人格了嗎？15 題揭曉你的「口袋家族萌寵」，獲取專屬基金清單，讓萌寵帶你開啟投資第一步！' },
+        { property: 'og:image', content: 'https://www.cmoneyfund.com.tw/api/v1.0/File/Download/951c7b97-3684-4463-971f-46a9ec5f71c4' },
         { property: 'og:type', content: 'website' },
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:title', content: '基金平台人格測驗' },
-        { name: 'twitter:description', content: '準備好探索你的基金人格了嗎？15題測驗，完成後即可立刻獲得你的投資風格定位分析報告與基金推薦！' },
-        { name: 'twitter:image', content: 'https://www.cmoneyfund.com.tw/api/v1.0/File/Download/c76bc90c-f17b-4398-9a52-289738c40038' }
+        { name: 'twitter:description', content: '準備好探索你的基金人格了嗎？15 題揭曉你的「口袋家族萌寵」，獲取專屬基金清單，讓萌寵帶你開啟投資第一步！' },
+        { name: 'twitter:image', content: 'https://www.cmoneyfund.com.tw/api/v1.0/File/Download/951c7b97-3684-4463-971f-46a9ec5f71c4' }
       ]
     }
   }

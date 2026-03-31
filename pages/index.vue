@@ -93,7 +93,7 @@ const openExternalLink = () => {
     <nav class="sticky top-0 z-[60] bg-white/60 backdrop-blur-xl border-b border-slate-200/50 py-1 sm:py-2 px-6 sm:px-10">
       <div class="max-w-7xl mx-auto flex justify-between items-center">
         <div class="flex items-center cursor-pointer group" @click="openExternalLink">
-          <span class="text-xl sm:text-2xl font-black text-slate-800 tracking-tight">基金平台人格測驗</span>
+          <img src="https://www.cmoneyfund.com.tw/api/v1.0/File/Download/951c7b97-3684-4463-971f-46a9ec5f71c4" alt="Logo" class="h-8 sm:h-10 w-auto object-contain transition-transform group-hover:scale-105" />
         </div>
       </div>
     </nav>

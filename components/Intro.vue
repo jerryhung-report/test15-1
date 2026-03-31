@@ -21,10 +21,10 @@ const handleStartClick = () => {
         </h1>
         <div class="space-y-4">
           <p class="text-slate-800 font-bold text-xl sm:text-2xl max-w-4xl mx-auto leading-relaxed">
-            15題測驗，完成後即可立刻獲得你的
+            15 題揭曉你的「口袋家族萌寵」，
           </p>
           <p class="text-slate-800 font-bold text-xl sm:text-2xl max-w-4xl mx-auto leading-relaxed">
-            投資風格定位分析報告與基金推薦！
+            獲取專屬基金清單，讓萌寵帶你開啟投資第一步！
           </p>
         </div>
       </div>
