@@ -29,7 +29,7 @@ const openSubscription = () => {
 <template>
   <div class="max-w-5xl mx-auto py-12 px-6 animate-fadeIn space-y-20 pb-64 sm:pb-48">
     <div class="text-center space-y-12">
-      <h2 class="text-4xl sm:text-6xl font-black text-slate-900 tracking-tight leading-tight">
+      <h2 class="text-[50px] font-black text-slate-900 tracking-tight leading-tight">
         針對 <span class="text-[#D21118]">{{ persona.title }}</span> 性格，<br class="sm:hidden" />適合買什麼？
       </h2>
     </div>
@@ -84,13 +84,13 @@ const openSubscription = () => {
         <div class="flex gap-2 sm:gap-4 w-full">
           <button 
             @click="$emit('reset')"
-            class="px-4 sm:px-8 py-3 sm:py-4 rounded-xl sm:rounded-2xl font-black bg-[#59657F] hover:bg-[#475065] text-white text-[11px] sm:text-sm flex-1 flex items-center justify-center gap-2 transition-colors shadow-lg shadow-[#59657F]/20"
+            class="px-4 sm:px-8 py-3 sm:py-4 rounded-xl sm:rounded-2xl font-black bg-[#59657F] hover:bg-[#475065] text-white text-[16px] flex-1 flex items-center justify-center gap-2 transition-colors shadow-lg shadow-[#59657F]/20"
           >
             <RotateCcw :size="14" class="sm:w-4 sm:h-4" /> 重新分析
           </button>
           <button 
             @click="openSubscription"
-            class="px-6 sm:px-12 py-3 sm:py-4 rounded-xl sm:rounded-2xl font-black bg-[#D21118] text-white hover:bg-[#b00e14] text-[11px] sm:text-sm flex-1 flex items-center justify-center gap-2 shadow-lg shadow-[#D21118]/20 transition-all"
+            class="px-6 sm:px-12 py-3 sm:py-4 rounded-xl sm:rounded-2xl font-black bg-[#D21118] text-white hover:bg-[#b00e14] text-[16px] flex-1 flex items-center justify-center gap-2 shadow-lg shadow-[#D21118]/20 transition-all"
           >
             立即申購
           </button>

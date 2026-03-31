@@ -15,7 +15,7 @@ const handleStartClick = () => {
         <span class="text-sm font-bold tracking-widest uppercase">基金投資風格分析</span>
       </div>
       <div class="space-y-10">
-        <h1 class="font-black text-slate-900 leading-[1.2] text-5xl sm:text-7xl tracking-tight">
+        <h1 class="font-black text-slate-900 leading-[1.2] text-[60px] tracking-tight">
           準備好探索你的<br />
           <span class="text-[#D21118]">基金人格</span>了嗎？
         </h1>

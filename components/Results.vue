@@ -28,7 +28,7 @@ defineEmits<{
       @click="$emit('continue')"
       class="bg-[#D21118] text-white w-full py-6 text-xl font-bold rounded-2xl hover:bg-[#b00e14] shadow-2xl transition-all active:scale-[0.98] flex items-center justify-center gap-3"
     >
-      查詢個人化最適基金
+      汪！點我領取基金清單
     </button>
   </div>
 </template>
