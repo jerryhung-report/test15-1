@@ -54,7 +54,7 @@ const updateData = (newData: Partial<UserFormData>) => {
               v-for="a in ['18-30歲', '31-40歲', '41-50歲']"
               :key="a"
               @click="updateData({ age: a })"
-              class="py-5 rounded-2xl font-black text-sm transition-all duration-300"
+              class="py-5 rounded-2xl font-black text-sm sm:text-lg transition-all duration-300"
               :class="data.age === a ? activeClass : inactiveClass"
             >
               {{ a }}
@@ -65,7 +65,7 @@ const updateData = (newData: Partial<UserFormData>) => {
               v-for="a in ['51-60歲', '61歲以上']"
               :key="a"
               @click="updateData({ age: a })"
-              class="py-5 rounded-2xl font-black text-sm transition-all duration-300"
+              class="py-5 rounded-2xl font-black text-sm sm:text-lg transition-all duration-300"
               :class="data.age === a ? activeClass : inactiveClass"
             >
               {{ a }}

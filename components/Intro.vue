@@ -20,10 +20,10 @@ const handleStartClick = () => {
           <span class="text-[#D21118]">基金人格</span>了嗎？
         </h1>
         <div class="space-y-4">
-          <p class="text-slate-800 font-bold text-xl sm:text-2xl max-w-4xl mx-auto leading-relaxed">
+          <p class="text-slate-800 font-bold text-lg sm:text-2xl max-w-4xl mx-auto leading-relaxed">
             15 題揭曉你的「基金家族萌寵」，
           </p>
-          <p class="text-slate-800 font-bold text-xl sm:text-2xl max-w-4xl mx-auto leading-relaxed">
+          <p class="text-slate-800 font-bold text-lg sm:text-2xl max-w-4xl mx-auto leading-relaxed">
             獲取專屬基金清單，讓萌寵帶你開啟投資第一步！
           </p>
         </div>
