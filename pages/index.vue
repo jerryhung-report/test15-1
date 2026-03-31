@@ -127,7 +127,7 @@ const openExternalLink = () => {
 
     <footer class="py-12 px-6 text-center border-t border-slate-200/50 bg-white/20 backdrop-blur-md">
       <div class="max-w-4xl mx-auto">
-        <p class="text-[18px] text-black font-bold leading-relaxed">
+        <p class="text-[16px] text-black font-bold leading-relaxed">
           投資一定有風險，基金投資有賺有賠，申購前應詳閱公開說明書。過往績效亦不代表未來結果。本資訊不作為評估投資人風險屬性、承受度或商品風險分級之依據，投資人應獨立判斷並自負盈虧。
         </p>
       </div>
