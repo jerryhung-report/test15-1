@@ -12,6 +12,7 @@
   <img 
     src="https://www.cmoneyfund.com.tw/api/v1.0/File/Download/e8b694d7-c020-4a76-ba81-ae4ebaf183f0" 
     alt="閃閃" 
+    referrerpolicy="no-referrer"
     class="fixed bottom-[2%] left-[-2%] sm:bottom-[10%] sm:left-[2%] w-[70px] sm:w-[150px] md:w-[200px] xl:w-[280px] object-contain animate-float opacity-100 z-0 pointer-events-none"
   />
   
@@ -36,6 +37,7 @@
         <img 
           src="https://www.cmoneyfund.com.tw/api/v1.0/File/Download/c76bc90c-f17b-4398-9a52-289738c40038" 
           alt="太空袋袋" 
+          referrerpolicy="no-referrer"
           class="w-full h-full object-contain opacity-100 translate-y-[20px]"
         />
       </div>

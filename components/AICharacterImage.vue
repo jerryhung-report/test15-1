@@ -16,6 +16,7 @@ const imageUrl = computed(() => {
     <img 
       :src="imageUrl" 
       :alt="persona.title" 
+      referrerpolicy="no-referrer"
       class="w-full h-full object-contain animate-scaleBounce" 
     />
   </div>

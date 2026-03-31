@@ -93,7 +93,7 @@ const openExternalLink = () => {
     <nav class="sticky top-0 z-[60] bg-white/60 backdrop-blur-xl border-b border-slate-200/50 py-1 sm:py-2 px-6 sm:px-10">
       <div class="max-w-7xl mx-auto flex justify-between items-center">
         <div class="flex items-center cursor-pointer group" @click="openExternalLink">
-          <img src="https://www.cmoneyfund.com.tw/api/v1.0/File/Download/951c7b97-3684-4463-971f-46a9ec5f71c4" alt="Logo" class="h-8 sm:h-10 w-auto object-contain transition-transform group-hover:scale-105" />
+          <img src="https://www.cmoneyfund.com.tw/api/v1.0/File/Download/951c7b97-3684-4463-971f-46a9ec5f71c4" alt="Logo" referrerpolicy="no-referrer" class="h-8 sm:h-10 w-auto object-contain transition-transform group-hover:scale-105" />
         </div>
       </div>
     </nav>
@@ -127,7 +127,7 @@ const openExternalLink = () => {
 
     <footer class="py-12 px-6 text-center border-t border-slate-200/50 bg-white/20 backdrop-blur-md">
       <div class="max-w-4xl mx-auto">
-        <p class="text-[16px] text-black font-bold leading-relaxed">
+        <p class="text-[14px] sm:text-[16px] text-black font-bold leading-relaxed">
           投資一定有風險，基金投資有賺有賠，申購前應詳閱公開說明書。過往績效亦不代表未來結果。本資訊不作為評估投資人風險屬性、承受度或商品風險分級之依據，投資人應獨立判斷並自負盈虧。
         </p>
       </div>

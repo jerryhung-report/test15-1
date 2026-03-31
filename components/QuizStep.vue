@@ -99,7 +99,7 @@ const isAnswered = computed(() => {
       <div class="bg-white border border-slate-100 rounded-[3rem] p-10 sm:p-14 shadow-2xl shadow-slate-200 text-center space-y-12">
         <div class="space-y-6">
           <div class="w-48 h-48 mx-auto flex items-center justify-center">
-            <img src="https://www.cmoneyfund.com.tw/api/v1.0/File/Download/4a97d8b1-dcd4-4f4b-8089-9d2a2dce35ef" alt="開始種樹" class="w-full h-full object-contain animate-pulse" />
+            <img src="https://www.cmoneyfund.com.tw/api/v1.0/File/Download/4a97d8b1-dcd4-4f4b-8089-9d2a2dce35ef" alt="開始種樹" referrerpolicy="no-referrer" class="w-full h-full object-contain animate-pulse" />
           </div>
           <h2 class="text-4xl font-black text-slate-900">太棒了！你已經完成一半</h2>
           <p class="text-slate-400 font-medium text-xl">
@@ -121,7 +121,7 @@ const isAnswered = computed(() => {
           <span class="text-[14px] font-black text-[#D21118] tracking-widest bg-[#D21118]/5 px-5 py-2 rounded-full uppercase inline-block">
             第 {{ index + 1 }} 題
           </span>
-          <h3 class="text-2xl sm:text-3xl font-black text-slate-900 leading-[1.3] whitespace-pre-line">
+          <h3 class="text-[21px] sm:text-3xl font-black text-slate-900 leading-[1.3] whitespace-pre-line">
             {{ currentQ.text || currentQ.q }}
           </h3>
         </div>

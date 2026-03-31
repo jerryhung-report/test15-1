@@ -15,13 +15,13 @@ const handleStartClick = () => {
         <span class="text-sm font-bold tracking-widest uppercase">基金投資風格分析</span>
       </div>
       <div class="space-y-10">
-        <h1 class="font-black text-slate-900 leading-[1.2] text-[60px] tracking-tight">
+        <h1 class="font-black text-slate-900 leading-[1.2] text-[40px] sm:text-[60px] tracking-tight">
           準備好探索你的<br />
           <span class="text-[#D21118]">基金人格</span>了嗎？
         </h1>
         <div class="space-y-4">
           <p class="text-slate-800 font-bold text-xl sm:text-2xl max-w-4xl mx-auto leading-relaxed">
-            15 題揭曉你的「口袋家族萌寵」，
+            15 題揭曉你的「基金家族萌寵」，
           </p>
           <p class="text-slate-800 font-bold text-xl sm:text-2xl max-w-4xl mx-auto leading-relaxed">
             獲取專屬基金清單，讓萌寵帶你開啟投資第一步！

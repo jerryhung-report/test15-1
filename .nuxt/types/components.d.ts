@@ -24,6 +24,7 @@ interface _GlobalComponents {
   ProgressBar: typeof import("../../components/ProgressBar.vue")['default']
   QuizStep: typeof import("../../components/QuizStep.vue")['default']
   Results: typeof import("../../components/Results.vue")['default']
+  ShareButton: typeof import("../../components/ShareButton.vue")['default']
   NuxtWelcome: typeof import("../../node_modules/nuxt/dist/app/components/welcome.vue")['default']
   NuxtLayout: typeof import("../../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
   NuxtErrorBoundary: typeof import("../../node_modules/nuxt/dist/app/components/nuxt-error-boundary.vue")['default']
@@ -57,6 +58,7 @@ interface _GlobalComponents {
   LazyProgressBar: LazyComponent<typeof import("../../components/ProgressBar.vue")['default']>
   LazyQuizStep: LazyComponent<typeof import("../../components/QuizStep.vue")['default']>
   LazyResults: LazyComponent<typeof import("../../components/Results.vue")['default']>
+  LazyShareButton: LazyComponent<typeof import("../../components/ShareButton.vue")['default']>
   LazyNuxtWelcome: LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/welcome.vue")['default']>
   LazyNuxtLayout: LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/nuxt-layout")['default']>
   LazyNuxtErrorBoundary: LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/nuxt-error-boundary.vue")['default']>

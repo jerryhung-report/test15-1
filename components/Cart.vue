@@ -29,7 +29,7 @@ const openSubscription = () => {
 <template>
   <div class="max-w-5xl mx-auto py-12 px-6 animate-fadeIn space-y-20 pb-64 sm:pb-48">
     <div class="text-center space-y-12">
-      <h2 class="text-[50px] font-black text-slate-900 tracking-tight leading-tight">
+      <h2 class="text-[30px] sm:text-[50px] font-black text-slate-900 tracking-tight leading-tight">
         針對 <span class="text-[#D21118]">{{ persona.title }}</span> 性格，<br class="sm:hidden" />適合買什麼？
       </h2>
     </div>

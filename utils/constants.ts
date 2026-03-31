@@ -789,7 +789,7 @@ export const MOCK_FUNDS: Fund[] = [
     "currency": "TWD",
     "risk": 4,
     "type": "Core",
-    "desc": "透過投資組合基金，分散佈局全球多元資產，追求穩健增值。",
+    "desc": "透過基金組合，分散佈局全球多元資產，追求穩健增值。",
     "perf": "+10.5%",
     "perf2y": "+20.1%",
     "perf3y": "+35.2%"
@@ -867,20 +867,20 @@ export const QUESTIONS: Record<string, Question[]> = {
 };
 
 export const PERSONAS: Persona[] = [
-  {title:"基金濟斯",desc:"馬爾濟斯型投資人資金規模不一定大，但對世界充滿好奇。他們偏好低門檻、可探索不同市場的基金配置，在控制風險的前提下，體驗投資帶來的視野擴張。",riskLevel:1,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/545a1226-05a7-43d0-ab65-4f13a847e211"},
-  {title:"基金西施",desc:"西施犬型投資人講究生活品質與節奏，不急著進出市場。穩健、管理風格一致的基金，讓資產在不被打擾的狀態下，優雅累積。",riskLevel:2,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/7e82c005-61b0-4685-80f5-87475fdf9002"},
-  {title:"基金吉娃",desc:"吉娃娃型投資人情緒敏感、反應快速，容易受市場波動影響。透過分散配置與小額定期投入的基金策略，有助於在高壓情緒中維持投資穩定度.",riskLevel:2,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/b296dc65-22be-45a4-921f-1725ccd24149"},
-  {title:"基金柴",desc:"柴犬型投資人個性獨立、自我，不輕易追逐市場風向，常以專注於長期邏輯的視角看待波動。這種傲嬌而固執的氣質，使他們偏好能經得起時間考驗的基金，而非短線熱門題材。",riskLevel:3,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/c66b1ae6-d28b-4407-b515-b89f7367e19e"},
-  {title:"基金貴賓",desc:"貴賓犬型投資人重視差異化與質感，不想與市場雷同。具有特色主題、選股邏輯清楚的基金，能滿足他們對獨特性的期待。",riskLevel:3,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/564cd141-570c-4fe2-b4ef-74c0f44ba6c3"},
-  {title:"基金拉拉",desc:"拉拉型投資人高度重視「有沒有產出」，對現金流與紀律特別敏感。能定期看到成果的配息型基金或穩定投入機制，最能讓他們安心守住投資節奏。",riskLevel:4,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/1f9b5ccb-de9c-4f2c-89b3-44df5ac9b0e0"},
-  {title:"基金土狗",desc:"台灣土狗型投資人擁有極強的環境適應力，不追求華麗報酬，而是能在各種市場條件下活得下來。分散、耐震、長期有效的基金配置，最符合他們的生存智慧。",riskLevel:4,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/9653082c-0970-44c8-b4cb-44a326c7651f"},
-  {title:"基金邊牧",desc:"牧羊犬型投資人理性且高度系統化，相信規則勝過情緒。具備明確策略、可自動執行的基金投資方式，正好符合他們追求最佳化的思維。",riskLevel:5,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/b95041fc-ff84-4cbb-b301-b09896a3663f"},
-  {title:"基金阿金",desc:"阿金型投資人性格溫暖、陽光，理財目的不是擊敗市場，而是讓生活更安心。他們親近長期投資、穩健累積的策略，就像釀酒一樣，時間越久，收穫越醇。",riskLevel:5,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/baeb7998-a658-426d-83e4-71a90b18576b"},
-  {title:"基金獒",desc:"藏獒型投資人重視責任與守護，對風險高度警覺。核心配置、穩定性高的基金，是他們為資產築起防線的首選，寧可慢，也不能失守。",riskLevel:6,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/5fc66b3d-3857-413b-8758-d51cb90adf98"}
+  {title:"口袋拉拉",desc:"拉布拉多型投資人高度重視「產出」，對現金流與紀律敏感。看到成果最能安心。",riskLevel:4,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/1f9b5ccb-de9c-4f2c-89b3-44df5ac9b0e0"},
+  {title:"口袋獒",desc:"藏獒型投資人重視責任與守護，對風險高度警覺。寧可慢，也不能失守。",riskLevel:6,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/5fc66b3d-3857-413b-8758-d51cb90adf98"},
+  {title:"口袋阿金",desc:"黃金獵犬型投資人性格溫暖陽光，理財是為了讓生活更安心。像釀酒般穩健累積。",riskLevel:5,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/baeb7998-a658-426d-83e4-71a90b18576b"},
+  {title:"口袋柴",desc:"柴犬型投資人獨立自我，不輕易追風。固執氣質使其偏好長期邏輯。",riskLevel:3,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/c66b1ae6-d28b-4407-b515-b89f7367e19e"},
+  {title:"口袋土狗",desc:"台灣土狗型投資人環境適應力極強，追求在各種市場條件下活下來。分散且耐震。",riskLevel:4,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/9653082c-0970-44c8-b4cb-44a326c7651f"},
+  {title:"口袋西施",desc:"西施犬型投資人講究生活品質，不急著進出市場。資產優雅累積。",riskLevel:2,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/7e82c005-61b0-4685-80f5-87475fdf9002"},
+  {title:"口袋邊牧",desc:"牧羊犬型投資人理性高度系統化，相信規則勝過情緒。追求自動化執行。",riskLevel:5,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/b95041fc-ff84-4cbb-b301-b09896a3663f"},
+  {title:"口袋濟斯",desc:"馬爾濟斯型投資人對世界充滿好奇。偏好低門檻、可探索不同市場的配置。",riskLevel:1,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/545a1226-05a7-43d0-ab65-4f13a847e211"},
+  {title:"口袋貴賓",desc:"貴賓犬型投資人重視差異化與質感。選股邏輯清楚、具特色主題的基金。",riskLevel:3,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/564cd141-570c-4fe2-b4ef-74c0f44ba6c3"},
+  {title:"口袋吉娃",desc:"吉娃娃型投資人情緒敏感反應快。建議透過分散配置與小額定期投入來穩定情緒。",riskLevel:2,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/b296dc65-22be-45a4-921f-1725ccd24149"}
 ];
 
 export const FUND_MAPPING: Record<string, {core: string[], sat: string[], etf: string}> = {
-  "基金柴": {
+  "口袋柴": {
     "core": [
       "97978047",
       "C0109004",
@@ -893,7 +893,7 @@ export const FUND_MAPPING: Record<string, {core: string[], sat: string[], etf: s
     ],
     "etf": "00713"
   },
-  "基金阿金": {
+  "口袋阿金": {
     "core": [
       "98638122",
       "98642423",
@@ -906,7 +906,7 @@ export const FUND_MAPPING: Record<string, {core: string[], sat: string[], etf: s
     ],
     "etf": "00646"
   },
-  "基金拉拉": {
+  "口袋拉拉": {
     "core": [
       "01032183",
       "C0109006",
@@ -919,7 +919,7 @@ export const FUND_MAPPING: Record<string, {core: string[], sat: string[], etf: s
     ],
     "etf": "009803"
   },
-  "基金土狗": {
+  "口袋土狗": {
     "core": [
       "73990649",
       "C0109015",
@@ -932,7 +932,7 @@ export const FUND_MAPPING: Record<string, {core: string[], sat: string[], etf: s
     ],
     "etf": "0050"
   },
-  "基金濟斯": {
+  "口袋濟斯": {
     "core": [
       "98641176",
       "98641767",
@@ -945,7 +945,7 @@ export const FUND_MAPPING: Record<string, {core: string[], sat: string[], etf: s
     ],
     "etf": "00850"
   },
-  "基金獒": {
+  "口袋獒": {
     "core": [
       "98640605",
       "C0109011",
@@ -958,7 +958,7 @@ export const FUND_MAPPING: Record<string, {core: string[], sat: string[], etf: s
     ],
     "etf": "0056"
   },
-  "基金西施": {
+  "口袋西施": {
     "core": [
       "73998065",
       "98637127",
@@ -971,7 +971,7 @@ export const FUND_MAPPING: Record<string, {core: string[], sat: string[], etf: s
     ],
     "etf": "0061"
   },
-  "基金邊牧": {
+  "口袋邊牧": {
     "core": [
       "C0054008",
       "92029139",
@@ -984,7 +984,7 @@ export const FUND_MAPPING: Record<string, {core: string[], sat: string[], etf: s
     ],
     "etf": "009810"
   },
-  "基金貴賓": {
+  "口袋貴賓": {
     "core": [
       "83866508",
       "97988636",
@@ -997,7 +997,7 @@ export const FUND_MAPPING: Record<string, {core: string[], sat: string[], etf: s
     ],
     "etf": "006201"
   },
-  "基金吉娃": {
+  "口袋吉娃": {
     "core": [
       "98638350",
       "98636726",

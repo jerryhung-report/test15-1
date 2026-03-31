@@ -24,6 +24,7 @@ export const Login: typeof import("../components/Login.vue")['default']
 export const ProgressBar: typeof import("../components/ProgressBar.vue")['default']
 export const QuizStep: typeof import("../components/QuizStep.vue")['default']
 export const Results: typeof import("../components/Results.vue")['default']
+export const ShareButton: typeof import("../components/ShareButton.vue")['default']
 export const NuxtWelcome: typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']
 export const NuxtLayout: typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
 export const NuxtErrorBoundary: typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary.vue")['default']
@@ -57,6 +58,7 @@ export const LazyLogin: LazyComponent<typeof import("../components/Login.vue")['
 export const LazyProgressBar: LazyComponent<typeof import("../components/ProgressBar.vue")['default']>
 export const LazyQuizStep: LazyComponent<typeof import("../components/QuizStep.vue")['default']>
 export const LazyResults: LazyComponent<typeof import("../components/Results.vue")['default']>
+export const LazyShareButton: LazyComponent<typeof import("../components/ShareButton.vue")['default']>
 export const LazyNuxtWelcome: LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']>
 export const LazyNuxtLayout: LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']>
 export const LazyNuxtErrorBoundary: LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary.vue")['default']>
