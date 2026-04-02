@@ -17,7 +17,11 @@ const emit = defineEmits<{
 
 const handleNameClick = (e: Event) => {
   e.stopPropagation();
-  window.open(`https://dev-fund.cmoneyfund.com.tw/fund-introduction/${props.fund.code}/performance-nav`, '_blank');
+  if (props.externalLink) {
+    window.open(props.externalLink, '_blank');
+  } else {
+    window.open(`https://dev-fund.cmoneyfund.com.tw/fund-introduction/${props.fund.code}/performance-nav`, '_blank');
+  }
 };
 
 const handleClick = () => {
