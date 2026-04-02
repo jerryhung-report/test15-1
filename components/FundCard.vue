@@ -15,6 +15,11 @@ const emit = defineEmits<{
   (e: 'toggle', code: string): void;
 }>();
 
+const handleNameClick = (e: Event) => {
+  e.stopPropagation();
+  window.open(`https://dev-fund.cmoneyfund.com.tw/fund-introduction/${props.fund.code}/performance-nav`, '_blank');
+};
+
 const handleClick = () => {
   if (props.externalLink) {
     window.open(props.externalLink, '_blank');
@@ -46,7 +51,12 @@ const handleClick = () => {
             <span class="text-[12px] font-bold px-3 py-1 border border-slate-200 text-slate-500 rounded-md bg-white">{{ fund.currency }}</span>
             <span class="text-[12px] font-bold text-slate-400 uppercase tracking-widest px-3 py-1">風險 RR{{ fund.risk }}</span>
           </div>
-          <h4 class="font-extrabold text-[20px] sm:text-3xl text-slate-900 leading-tight group-hover:text-[#D21118] transition-colors">{{ fund.name }}</h4>
+          <h4 
+            @click="handleNameClick"
+            class="font-extrabold text-[20px] sm:text-3xl text-slate-900 leading-tight hover:text-[#D21118] transition-colors hover:underline"
+          >
+            {{ fund.name }}
+          </h4>
           <p class="text-base text-slate-500 leading-relaxed font-medium max-w-4xl">{{ fund.desc }}</p>
         </div>
       </div>
