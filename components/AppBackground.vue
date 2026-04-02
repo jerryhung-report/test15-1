@@ -67,7 +67,7 @@ watch(() => route.query.step, () => {
 const speechBubbleText = computed(() => {
   const step = route.query.step;
   if (!step || step === 'intro') {
-    return '歡迎來到基金人格測驗！';
+    return '歡迎來到投資人格測驗！';
   }
 
   if (step === 'results') {
@@ -75,7 +75,7 @@ const speechBubbleText = computed(() => {
   }
 
   if (step === 'quiz1') {
-    return '開始測試你的基金人格囉！';
+    return '開始測試你的投資人格囉！';
   }
 
   if (step === 'quiz10' || step === 'quiz10-1') {
@@ -87,26 +87,26 @@ const speechBubbleText = computed(() => {
   }
 
   if (step === 'quiz15') {
-    return '完成這題就要進去探索你的基金人格了唷';
+    return '完成這題就要進去探索你的投資人格了唷';
   }
 
   if (step === 'cart') {
-    return '這裡的基金都很適合你喔';
+    return '這裡的投資標的都很適合你喔';
   }
 
   if (step === 'login') {
-    return '登入你的基金帳號密碼喔';
+    return '要登入使用者代碼及密碼喔';
   }
 
   if (step === 'form') {
-    return '填寫好正確資料，不定期通知你基金驚喜優惠喔！';
+    return '填寫好正確資料，不定期通知你投資驚喜優惠喔！';
   }
 
   if (typeof step === 'string' && step.startsWith('quiz')) {
     const qNum = parseInt(step.replace('quiz', ''));
     if (!isNaN(qNum)) {
       if (qNum >= 2 && qNum <= 9) {
-        return '請往下繼續測驗你的基金人格';
+        return '請往下繼續測驗你的投資人格';
       }
       if (qNum >= 11 && qNum <= 13) {
         return '請往下繼續完成宇宙種樹的測驗';

@@ -12,19 +12,19 @@ const handleStartClick = () => {
   <div class="relative min-h-[80vh] flex flex-col items-center justify-center px-6 py-12">
     <div class="relative z-10 max-w-4xl mx-auto text-center space-y-12 animate-fadeIn">
       <div class="inline-flex items-center gap-2 px-6 py-2 bg-black text-white rounded-full">
-        <span class="text-sm font-bold tracking-widest uppercase">基金投資風格分析</span>
+        <span class="text-sm font-bold tracking-widest uppercase">投資風格分析</span>
       </div>
       <div class="space-y-10">
         <h1 class="font-black text-slate-900 leading-[1.2] text-[40px] sm:text-[60px] tracking-tight">
           準備好探索你的<br />
-          <span class="text-[#D21118]">基金人格</span>了嗎？
+          <span class="text-[#D21118]">投資人格</span>了嗎？
         </h1>
         <div class="space-y-4">
           <p class="text-slate-800 font-bold text-lg sm:text-2xl max-w-4xl mx-auto leading-relaxed">
-            15 題揭曉你的「基金家族萌寵」，
+            15 題揭曉你的「口袋家族萌寵」，
           </p>
           <p class="text-slate-800 font-bold text-lg sm:text-2xl max-w-4xl mx-auto leading-relaxed">
-            獲取專屬基金清單，讓萌寵帶你開啟投資第一步！
+            獲取專屬投資清單，讓萌寵帶你開啟投資第一步！
           </p>
         </div>
       </div>
