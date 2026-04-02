@@ -867,16 +867,16 @@ export const QUESTIONS: Record<string, Question[]> = {
 };
 
 export const PERSONAS: Persona[] = [
-  {title:"口袋拉拉",desc:"拉布拉多型投資人高度重視「產出」，對現金流與紀律敏感。看到成果最能安心。",riskLevel:4,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/1f9b5ccb-de9c-4f2c-89b3-44df5ac9b0e0"},
-  {title:"口袋獒",desc:"藏獒型投資人重視責任與守護，對風險高度警覺。寧可慢，也不能失守。",riskLevel:6,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/5fc66b3d-3857-413b-8758-d51cb90adf98"},
-  {title:"口袋阿金",desc:"黃金獵犬型投資人性格溫暖陽光，理財是為了讓生活更安心。像釀酒般穩健累積。",riskLevel:5,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/baeb7998-a658-426d-83e4-71a90b18576b"},
-  {title:"口袋柴",desc:"柴犬型投資人獨立自我，不輕易追風。固執氣質使其偏好長期邏輯。",riskLevel:3,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/c66b1ae6-d28b-4407-b515-b89f7367e19e"},
+  {title:"口袋拉拉",desc:"拉布拉多型投資人高度重視「產出」，對現金流與紀律敏感。看到成果最能安心。",riskLevel:4,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/152f4e06-2380-4730-a086-09ad9dcb308e"},
+  {title:"口袋獒",desc:"藏獒型投資人重視責任與守護，對風險高度警覺。寧可慢，也不能失守。",riskLevel:6,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/056f600d-6ff0-4d03-84bf-f9dd277ac487"},
+  {title:"口袋阿金",desc:"黃金獵犬型投資人性格溫暖陽光，理財是為了讓生活更安心。像釀酒般穩健累積。",riskLevel:5,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/f866fc51-a815-4bf6-8e28-d3639d5a1600"},
+  {title:"口袋柴",desc:"柴犬型投資人獨立自我，不輕易追風。固執氣質使其偏好長期邏輯。",riskLevel:3,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/79ebfa32-abd4-4d6e-97c3-de47b3eae5cc"},
   {title:"口袋土狗",desc:"台灣土狗型投資人環境適應力極強，追求在各種市場條件下活下來。分散且耐震。",riskLevel:4,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/9653082c-0970-44c8-b4cb-44a326c7651f"},
   {title:"口袋西施",desc:"西施犬型投資人講究生活品質，不急著進出市場。資產優雅累積。",riskLevel:2,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/7e82c005-61b0-4685-80f5-87475fdf9002"},
-  {title:"口袋邊牧",desc:"牧羊犬型投資人理性高度系統化，相信規則勝過情緒。追求自動化執行。",riskLevel:5,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/b95041fc-ff84-4cbb-b301-b09896a3663f"},
+  {title:"口袋邊牧",desc:"牧羊犬型投資人理性高度系統化，相信規則勝過情緒。追求自動化執行。",riskLevel:5,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/18896e37-c685-4aa1-8234-ddf9d4a326de"},
   {title:"口袋濟斯",desc:"馬爾濟斯型投資人對世界充滿好奇。偏好低門檻、可探索不同市場的配置。",riskLevel:1,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/545a1226-05a7-43d0-ab65-4f13a847e211"},
-  {title:"口袋貴賓",desc:"貴賓犬型投資人重視差異化與質感。選股邏輯清楚、具特色主題的基金。",riskLevel:3,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/564cd141-570c-4fe2-b4ef-74c0f44ba6c3"},
-  {title:"口袋吉娃",desc:"吉娃娃型投資人情緒敏感反應快。建議透過分散配置與小額定期投入來穩定情緒。",riskLevel:2,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/b296dc65-22be-45a4-921f-1725ccd24149"}
+  {title:"口袋貴賓",desc:"貴賓犬型投資人重視差異化與質感。選股邏輯清楚、具特色主題的基金。",riskLevel:3,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/7398bfc6-b0cb-4673-a018-aab8ecd13c45"},
+  {title:"口袋吉娃",desc:"吉娃娃型投資人情緒敏感反應快。建議透過分散配置與小額定期投入來穩定情緒。",riskLevel:2,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/8db30b13-bdba-4633-be21-41e484eee9df"}
 ];
 
 export const FUND_MAPPING: Record<string, {core: string[], sat: string[], etf: string}> = {

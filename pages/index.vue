@@ -93,7 +93,7 @@ const openExternalLink = () => {
     <nav class="sticky top-0 z-[60] bg-white/60 backdrop-blur-xl border-b border-slate-200/50 py-1 sm:py-2 px-6 sm:px-10">
       <div class="max-w-7xl mx-auto flex justify-between items-center">
         <div class="flex items-center cursor-pointer group" @click="openExternalLink">
-          <img src="https://www.cmoneyfund.com.tw/api/v1.0/File/Download/951c7b97-3684-4463-971f-46a9ec5f71c4" alt="Logo" referrerpolicy="no-referrer" class="h-8 sm:h-10 w-auto object-contain transition-transform group-hover:scale-105" />
+          <img src="https://www.cmoneyfund.com.tw/api/v1.0/File/Download/e9cabd5a-7aed-4e43-a7a4-5dae1a969544" alt="Logo" referrerpolicy="no-referrer" class="h-8 sm:h-10 w-auto object-contain transition-transform group-hover:scale-105" />
         </div>
       </div>
     </nav>

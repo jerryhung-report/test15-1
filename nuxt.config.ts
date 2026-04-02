@@ -35,12 +35,12 @@ export default defineNuxtConfig({
         { name: 'description', content: '準備好探索你的投資人格了嗎？15 題揭曉你的「口袋家族萌寵」，獲取專屬投資清單，讓萌寵帶你開啟投資第一步！' },
         { property: 'og:title', content: 'CMoneyFund投資人格測驗' },
         { property: 'og:description', content: '準備好探索你的投資人格了嗎？15 題揭曉你的「口袋家族萌寵」，獲取專屬投資清單，讓萌寵帶你開啟投資第一步！' },
-        { property: 'og:image', content: 'https://www.cmoneyfund.com.tw/api/v1.0/File/Download/951c7b97-3684-4463-971f-46a9ec5f71c4' },
+        { property: 'og:image', content: 'https://www.cmoneyfund.com.tw/api/v1.0/File/Download/e9cabd5a-7aed-4e43-a7a4-5dae1a969544' },
         { property: 'og:type', content: 'website' },
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:title', content: 'CMoneyFund投資人格測驗' },
         { name: 'twitter:description', content: '準備好探索你的投資人格了嗎？15 題揭曉你的「口袋家族萌寵」，獲取專屬投資清單，讓萌寵帶你開啟投資第一步！' },
-        { name: 'twitter:image', content: 'https://www.cmoneyfund.com.tw/api/v1.0/File/Download/951c7b97-3684-4463-971f-46a9ec5f71c4' }
+        { name: 'twitter:image', content: 'https://www.cmoneyfund.com.tw/api/v1.0/File/Download/e9cabd5a-7aed-4e43-a7a4-5dae1a969544' }
       ]
     }
   }
