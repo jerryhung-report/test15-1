@@ -135,8 +135,8 @@ const openExternalLink = () => {
       />
     </main>
 
-    <footer class="py-12 px-6 text-left border-t border-slate-200/50 bg-white/20 backdrop-blur-md">
-      <div class="max-w-5xl mx-auto space-y-4 text-[12px] sm:text-[14px] text-black font-bold leading-relaxed">
+    <footer class="py-8 px-6 text-left border-t border-slate-200/50 bg-white/20 backdrop-blur-md">
+      <div class="max-w-5xl mx-auto space-y-2 text-[12px] sm:text-[14px] text-black font-bold leading-normal">
         <p>口袋投顧 獨立經營管理</p>
         <p>各基金經金管會核准或同意生效，惟不表示絕無風險。基金經理公司以往之經理績效不保證基金之最低投資收益；基金經理公司除盡善良管理人之注意義務外，不負責本基金之盈虧，亦不保證最低之收益，投資人申購前應詳閱投資人須知或/與基金公開說明書。</p>
         <p>有關基金應負擔之費用（含分銷費用）已揭露於基金公開說明書及投資人須知，投資人可至公開資訊觀測站或境外基金資訊觀測站中查詢。</p>
