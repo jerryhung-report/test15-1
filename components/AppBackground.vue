@@ -67,49 +67,49 @@ watch(() => route.query.step, () => {
 const speechBubbleText = computed(() => {
   const step = route.query.step;
   if (!step || step === 'intro') {
-    return '歡迎來到投資人格測驗！';
+    return '測測你的投資超能力！';
   }
 
   if (step === 'results') {
-    return '像不像你？';
+    return '這像不像你？';
   }
 
   if (step === 'quiz1') {
-    return '開始測試你的投資人格囉！';
+    return '預備起！測驗開始囉';
   }
 
   if (step === 'quiz10' || step === 'quiz10-1') {
-    return '讚喔！你已經完全一半測驗，快快往下繼續探索';
+    return '擊掌！一半了，加油';
   }
 
   if (step === 'quiz14') {
-    return '往下只剩最後一題了喔';
+    return '倒數計時！剩最後兩題';
   }
 
   if (step === 'quiz15') {
-    return '完成這題就要進去探索你的投資人格了唷';
+    return '最後一題，準備揭曉！';
   }
 
   if (step === 'cart') {
-    return '這裡的投資標的都很適合你喔';
+    return '這些標的跟你最速配';
   }
 
   if (step === 'login') {
-    return '要登入使用者代碼及密碼喔';
+    return '登入平台，開始投資！';
   }
 
   if (step === 'form') {
-    return '填寫好正確資料，不定期通知你投資驚喜優惠喔！';
+    return '填好資料，驚喜領不完';
   }
 
   if (typeof step === 'string' && step.startsWith('quiz')) {
     const qNum = parseInt(step.replace('quiz', ''));
     if (!isNaN(qNum)) {
       if (qNum >= 2 && qNum <= 9) {
-        return '請往下繼續測驗你的投資人格';
+        return '繼續前進，財富在招手！';
       }
       if (qNum >= 11 && qNum <= 13) {
-        return '請往下繼續完成宇宙種樹的測驗';
+        return '繼續種樹，前進宇宙';
       }
     }
   }
