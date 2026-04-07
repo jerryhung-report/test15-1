@@ -57,9 +57,14 @@ const handleClick = () => {
           </div>
           <h4 
             @click="handleNameClick"
-            class="font-extrabold text-[20px] sm:text-3xl text-slate-900 leading-tight hover:text-[#D21118] transition-colors hover:underline"
+            class="font-extrabold text-[17px] sm:text-[26px] text-slate-900 leading-tight hover:text-[#D21118] transition-colors hover:underline"
           >
-            {{ fund.name }}
+            <template v-if="fund.name.includes('(')">
+              {{ fund.name.split('(')[0] }}<span class="font-black text-black">({{ fund.name.split('(').slice(1).join('(') }}</span>
+            </template>
+            <template v-else>
+              {{ fund.name }}
+            </template>
           </h4>
           <p class="text-base text-slate-500 leading-relaxed font-medium max-w-4xl">{{ fund.desc }}</p>
         </div>
