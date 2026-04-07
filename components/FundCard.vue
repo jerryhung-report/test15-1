@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ExternalLink, CheckSquare, Square } from 'lucide-vue-next';
 import type { Fund } from '~/types';
+import { computed } from 'vue';
 
 const props = withDefaults(defineProps<{
   fund: Fund;
@@ -31,6 +32,19 @@ const handleClick = () => {
     emit('toggle', props.fund.code);
   }
 };
+
+const formattedNameParts = computed(() => {
+  const name = props.fund.name;
+  const regex = /(\(本基金[^)]*\)|\(基金之[^)]*\))/g;
+  const parts = name.split(regex);
+  
+  return parts.filter(part => part !== '').map(part => {
+    if (part.startsWith('(本基金') || part.startsWith('(基金之')) {
+      return { text: part, isWarning: true };
+    }
+    return { text: part, isWarning: false };
+  });
+});
 </script>
 
 <template>
@@ -59,11 +73,9 @@ const handleClick = () => {
             @click="handleNameClick"
             class="font-extrabold text-[17px] sm:text-[26px] text-slate-900 leading-tight hover:text-[#D21118] transition-colors hover:underline"
           >
-            <template v-if="fund.name.includes('(')">
-              {{ fund.name.split('(')[0] }}<span class="font-black text-black">({{ fund.name.split('(').slice(1).join('(') }}</span>
-            </template>
-            <template v-else>
-              {{ fund.name }}
+            <template v-for="(part, index) in formattedNameParts" :key="index">
+              <span v-if="part.isWarning" class="font-black text-black">{{ part.text }}</span>
+              <template v-else>{{ part.text }}</template>
             </template>
           </h4>
           <p class="text-base text-slate-500 leading-relaxed font-medium max-w-4xl">{{ fund.desc }}</p>
