@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { Globe, Satellite, ShoppingCart, RotateCcw } from 'lucide-vue-next';
 import { FUND_MAPPING, MOCK_FUNDS, ETF_LINKS } from '~/utils/constants';
+import { computed } from 'vue';
 
 import type { Persona } from '~/types';
 

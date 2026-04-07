@@ -71,11 +71,11 @@ const formattedNameParts = computed(() => {
           </div>
           <h4 
             @click="handleNameClick"
-            class="font-extrabold text-[17px] sm:text-[26px] text-slate-900 leading-tight hover:text-[#D21118] transition-colors hover:underline"
+            class="text-[17px] sm:text-[26px] text-slate-900 leading-tight hover:text-[#D21118] transition-colors hover:underline"
           >
             <template v-for="(part, index) in formattedNameParts" :key="index">
-              <span v-if="part.isWarning" class="font-black text-black">{{ part.text }}</span>
-              <template v-else>{{ part.text }}</template>
+              <span v-if="part.isWarning" class="font-black">{{ part.text }}</span>
+              <span v-else class="font-medium">{{ part.text }}</span>
             </template>
           </h4>
           <p class="text-base text-slate-500 leading-relaxed font-medium max-w-4xl">{{ fund.desc }}</p>
