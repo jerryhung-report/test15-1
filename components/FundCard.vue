@@ -74,7 +74,7 @@ const formattedNameParts = computed(() => {
             class="text-[17px] sm:text-[26px] text-slate-900 leading-tight hover:text-[#D21118] transition-colors hover:underline"
           >
             <template v-for="(part, index) in formattedNameParts" :key="index">
-              <span v-if="part.isWarning" class="font-black">{{ part.text }}</span>
+              <span v-if="part.isWarning" class="font-bold">{{ part.text }}</span>
               <span v-else class="font-medium">{{ part.text }}</span>
             </template>
           </h4>

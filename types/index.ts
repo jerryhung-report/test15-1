@@ -42,6 +42,7 @@ export interface Lead extends UserFormData {
 
 export interface Persona {
   title: string;
+  enName: string;
   desc: string;
   riskLevel: number;
   image?: string;

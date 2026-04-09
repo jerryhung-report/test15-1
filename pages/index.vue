@@ -12,14 +12,25 @@ const getInitialStep = () => {
   const s = route.query.step as string;
   if (s) {
     if (s.startsWith('quiz')) return 'quiz';
-    if (["intro", "form", "results", "login", "cart"].includes(s)) return s as any;
+    if (s.startsWith('results-')) return s;
+    if (["intro", "form", "login", "cart"].includes(s)) return s;
   }
   return "intro";
 };
 
-const step = ref<"intro" | "form" | "quiz" | "results" | "login" | "cart">(getInitialStep());
+const getInitialPersona = () => {
+  const s = route.query.step as string;
+  if (s && s.startsWith('results-')) {
+    const enName = s.replace('results-', '');
+    const found = PERSONAS.find(p => p.enName === enName);
+    if (found) return found;
+  }
+  return PERSONAS[0]!;
+};
+
+const step = ref<string>(getInitialStep());
 const formData = ref<UserFormData>({ gender: "", age: "", phone: "", email: "", allocation: "" });
-const persona = ref<Persona>(PERSONAS[0]!);
+const persona = ref<Persona>(getInitialPersona());
 const selectedFunds = ref<string[]>([]);
 
 const P1 = 105; // Max score
@@ -29,8 +40,13 @@ watch(() => route.query.step, (newStep) => {
   if (newStep && newStep !== step.value) {
     if ((newStep as string).startsWith('quiz')) {
       step.value = 'quiz';
-    } else if (["intro", "form", "results", "login", "cart"].includes(newStep as string)) {
-      step.value = newStep as any;
+    } else if ((newStep as string).startsWith('results-')) {
+      step.value = newStep as string;
+      const enName = (newStep as string).replace('results-', '');
+      const found = PERSONAS.find(p => p.enName === enName);
+      if (found) persona.value = found;
+    } else if (["intro", "form", "login", "cart"].includes(newStep as string)) {
+      step.value = newStep as string;
     }
   }
 });
@@ -74,7 +90,7 @@ const handleQuizComplete = (answers: Record<number, number>) => {
   if (p) {
     persona.value = p;
     selectedFunds.value = [];
-    step.value = "results";
+    step.value = `results-${p.enName}`;
   }
 };
 
@@ -118,7 +134,7 @@ const openExternalLink = () => {
       />
       <QuizStep v-else-if="step === 'quiz'" @complete="handleQuizComplete" />
       <Results 
-        v-else-if="step === 'results'" 
+        v-else-if="step.startsWith('results-')" 
         :persona="persona" 
         @continue="step = 'login'" 
       />

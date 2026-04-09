@@ -70,7 +70,7 @@ const speechBubbleText = computed(() => {
     return '測測你的投資超能力！';
   }
 
-  if (step === 'results') {
+  if (typeof step === 'string' && step.startsWith('results-')) {
     return '這像不像你？';
   }
 
