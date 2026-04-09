@@ -819,13 +819,13 @@ export const QUESTIONS: Record<string, Question[]> = {
 };
 
 export const PERSONAS: Persona[] = [
-  {title:"口袋拉拉",enName:"Lab",desc:"拉拉型投資人高度重視「有沒有產出」，對現金流與紀律特別敏感。能定期看到成果的配息型基金或穩定投入機制，最能讓他們安心守住投資節奏。",riskLevel:4,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/152f4e06-2380-4730-a086-09ad9dcb308e"},
+  {title:"口袋拉拉",enName:"Lab",desc:"拉布拉多型投資人高度重視「有沒有產出」，對現金流與紀律特別敏感。能定期看到成果的配息型基金或穩定投入機制，最能讓他們安心守住投資節奏。",riskLevel:4,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/152f4e06-2380-4730-a086-09ad9dcb308e"},
   {title:"口袋獒",enName:"Mastiff",desc:"藏獒型投資人重視責任與守護，對風險高度警覺。核心配置、穩定性高的基金，是他們為資產築起防線的首選，寧可慢，也不能失守。",riskLevel:6,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/056f600d-6ff0-4d03-84bf-f9dd277ac487"},
-  {title:"口袋阿金",enName:"Golden",desc:"阿金型投資人性格溫暖、陽光，理財目的不是擊敗市場，而是讓生活更安心。他們親近長期投資、穩健累積的策略，就像釀酒一樣，時間越久，收穫越醇。",riskLevel:5,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/f866fc51-a815-4bf6-8e28-d3639d5a1600"},
+  {title:"口袋阿金",enName:"Golden",desc:"黃金獵犬型投資人性格溫暖、陽光，理財目的不是擊敗市場，而是讓生活更安心。他們親近長期投資、穩健累積的策略，就像釀酒一樣，時間越久，收穫越醇。",riskLevel:5,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/f866fc51-a815-4bf6-8e28-d3639d5a1600"},
   {title:"口袋柴",enName:"Shiba",desc:"柴犬型投資人個性獨立、自我，不輕易追逐市場風向，常以旁觀者視角看待波動。這種傲嬌而固執的氣質，使他們偏好有長期邏輯、能經得起時間考驗的基金，而非短線熱門題材。",riskLevel:3,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/79ebfa32-abd4-4d6e-97c3-de47b3eae5cc"},
   {title:"口袋土狗",enName:"Tugou",desc:"台灣土狗型投資人擁有極強的環境適應力，不追求華麗報酬，而是能在各種市場條件下活得下來。分散、耐震、長期有效的基金配置，最符合他們的生存智慧。",riskLevel:4,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/9653082c-0970-44c8-b4cb-44a326c7651f"},
   {title:"口袋西施",enName:"ShihTzu",desc:"西施犬型投資人講究生活品質與節奏，不急著進出市場。穩健、管理風格一致的基金，讓資產在不被打擾的狀態下，優雅累積。",riskLevel:2,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/7e82c005-61b0-4685-80f5-87475fdf9002"},
-  {title:"口袋邊牧",enName:"Border",desc:"牧羊犬型投資人理性且高度系統化，相信規則勝過情緒。具備明確策略、可自動執行的基金投資方式，正好符合他們追求最佳化的思維。",riskLevel:5,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/18896e37-c685-4aa1-8234-ddf9d4a326de"},
+  {title:"口袋邊牧",enName:"Border",desc:"邊境牧羊犬型投資人理性且高度系統化，相信規則勝過情緒。具備明確策略、可自動執行的基金投資方式，正好符合他們追求最佳化的思維。",riskLevel:5,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/18896e37-c685-4aa1-8234-ddf9d4a326de"},
   {title:"口袋濟斯",enName:"Maltese",desc:"馬爾濟斯型投資人資金規模不一定大，但對世界充滿好奇。他們偏好低門檻、可探索不同市場的基金配置，在控制風險的前提下，體驗投資帶來的視野擴張。",riskLevel:1,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/545a1226-05a7-43d0-ab65-4f13a847e211"},
   {title:"口袋貴賓",enName:"Poodle",desc:"貴賓犬型投資人重視差異化與質感，不想與市場雷同。具有特色主題、選股邏輯清楚的基金，能滿足他們對獨特性的期待。",riskLevel:3,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/7398bfc6-b0cb-4673-a018-aab8ecd13c45"},
   {title:"口袋吉娃",enName:"Chi",desc:"吉娃娃型投資人情緒敏感、反應快速，容易受市場波動影響。透過分散配置與小額定期投入的基金策略，有助於在高壓情緒中維持投資穩定度。",riskLevel:2,image:"https://www.cmoneyfund.com.tw/api/v1.0/File/Download/8db30b13-bdba-4633-be21-41e484eee9df"}
