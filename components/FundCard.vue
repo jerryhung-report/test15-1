@@ -78,7 +78,7 @@ const formattedNameParts = computed(() => {
               <span v-else class="font-medium">{{ part.text }}</span>
             </template>
           </h4>
-          <p class="text-base text-slate-500 leading-relaxed font-medium max-w-4xl">{{ fund.desc }}</p>
+          <p class="text-[12px] sm:text-[14px] text-slate-500 leading-relaxed font-medium max-w-4xl">{{ fund.desc }}</p>
         </div>
       </div>
     </div>
