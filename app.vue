@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <NuxtLayout>
     <NuxtErrorBoundary>
       <NuxtPage />
       <ShareButton />
@@ -20,5 +20,5 @@
         </div>
       </template>
     </NuxtErrorBoundary>
-  </div>
+  </NuxtLayout>
 </template>

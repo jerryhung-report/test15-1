@@ -3,11 +3,11 @@ import { useRouter } from 'vue-router';
 
 const router = useRouter();
 
-const handleStart = () => {
-  router.push('/form');
+const handleSuccess = () => {
+  router.push('/cart');
 };
 </script>
 
 <template>
-  <Intro @start="handleStart" />
+  <Login @success="handleSuccess" />
 </template>
