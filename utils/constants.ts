@@ -4,7 +4,7 @@ import type { Fund, Question, Persona } from '~/types';
 export const MOCK_FUNDS: Fund[] = [
   {
     "code": "98641176",
-    "name": "PGIM全球生態友善ESG多重",
+    "name": "PGIM保德信全球生態友善ESG多重資產基金-累積型(台幣)(本基金有相當比重投資於非投資等級之高風險債券且基金之配息來源可能為本金)",
     "isin": "TW000T0848A9",
     "currency": "TWD",
     "risk": 4,
@@ -16,7 +16,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "98641767",
-    "name": "元大臺灣ESG永續ETF連結",
+    "name": "元大臺灣ESG永續ETF連結基金A不配息(本基金之配息來源可能為收益平準金)",
     "isin": "TW000T05C3A3",
     "currency": "TWD",
     "risk": 4,
@@ -28,7 +28,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "98641425",
-    "name": "中國信託ESG金融收益多重",
+    "name": "中國信託ESG金融收益多重資產基金-A累積型(台幣)(本基金有相當比重投資於非投資等級之高風險債券且本基金之配息來源可能為本金)",
     "isin": "TW000T2623A4",
     "currency": "TWD",
     "risk": 4,
@@ -40,7 +40,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "98640652",
-    "name": "台新ESG環保愛地球成長基金",
+    "name": "台新ESG環保愛地球成長基金-A不配息(台幣)",
     "isin": "TW000T4769A3",
     "currency": "TWD",
     "risk": 4,
@@ -52,7 +52,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "C0115029",
-    "name": "法盛Mirova全球永續股票",
+    "name": "法盛全球永續股票基金 R/A NPF USD",
     "isin": "LU1623119135",
     "currency": "TWD",
     "risk": 4,
@@ -64,7 +64,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "98641053",
-    "name": "中國信託ESG碳商機多重",
+    "name": "中國信託ESG碳商機多重資產基金-A累積型(台幣)(本基金有相當比重投資於非投資等級之高風險債券且本基金之配息來源可能為本金)",
     "isin": "TW000T2622A6",
     "currency": "TWD",
     "risk": 4,
@@ -76,7 +76,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "00850",
-    "name": "元大臺灣ESG永續",
+    "name": "元大臺灣ESG永續ETF",
     "isin": "TW0000085006",
     "currency": "TWD",
     "risk": 4,
@@ -88,7 +88,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "73998065",
-    "name": "PGIM保德信大中華基金",
+    "name": "PGIM保德信大中華基金(台幣)",
     "isin": "TW000T0809Y1",
     "currency": "TWD",
     "risk": 4,
@@ -100,7 +100,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "98637127",
-    "name": "PGIM保德信中國品牌基金",
+    "name": "PGIM保德信中國品牌基金-累積型(台幣)",
     "isin": "TW000T0832Y3",
     "currency": "TWD",
     "risk": 4,
@@ -112,7 +112,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "98637551",
-    "name": "統一大龍騰中國基金",
+    "name": "統一大龍騰中國基金(台幣)",
     "isin": "TW000T0931Y3",
     "currency": "TWD",
     "risk": 4,
@@ -124,7 +124,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "98637537",
-    "name": "PGIM保德信中國中小基金",
+    "name": "PGIM保德信中國中小基金(台幣)",
     "isin": "TW000T0836Y4",
     "currency": "TWD",
     "risk": 4,
@@ -136,7 +136,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "98637078",
-    "name": "統一大中華中小基金",
+    "name": "統一大中華中小基金(台幣)",
     "isin": "TW000T0924Y8",
     "currency": "TWD",
     "risk": 4,
@@ -148,7 +148,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "98637071",
-    "name": "台新中國精選中小基金",
+    "name": "台新中國精選中小基金(台幣)",
     "isin": "TW000T4711Y5",
     "currency": "TWD",
     "risk": 4,
@@ -160,7 +160,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "0061",
-    "name": "元大寶滬深",
+    "name": "元大寶滬深ETF",
     "isin": "TW0000061007",
     "currency": "TWD",
     "risk": 4,
@@ -172,7 +172,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "98638350",
-    "name": "PGIM保德信策略成長ETF組合",
+    "name": "PGIM保德信策略成長ETF組合基金(台幣)",
     "isin": "TW000T0839A8",
     "currency": "TWD",
     "risk": 4,
@@ -184,7 +184,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "98636726",
-    "name": "元大全球ETF穩健組合基金",
+    "name": "元大全球ETF穩健組合基金A不配息(台幣)",
     "isin": "TW000T0575Y8",
     "currency": "TWD",
     "risk": 4,
@@ -196,7 +196,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "98638113",
-    "name": "台新全球多元資產組合基金",
+    "name": "台新全球多元資產組合基金-A不配息(台幣)(本基金得投資於非投資等級之高風險債券基金且配息來源可能為本金)",
     "isin": "TW000T4753A7",
     "currency": "TWD",
     "risk": 4,
@@ -208,7 +208,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "98641041",
-    "name": "PGIM保德信全球新供應鏈基金",
+    "name": "PGIM保德信全球新供應鏈基金-累積型(台幣)",
     "isin": "TW000T0847A1",
     "currency": "TWD",
     "risk": 4,
@@ -220,7 +220,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "98636878",
-    "name": "元大全球地產建設入息基金",
+    "name": "元大全球地產建設入息基金A不配息(本基金之配息來源可能為本金且並無保證收益及配息)",
     "isin": "TW000T0542A8",
     "currency": "TWD",
     "risk": 4,
@@ -232,7 +232,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "98638435",
-    "name": "華南永昌ShillerUSCAPEETF",
+    "name": "華南永昌Shiller US CAPE ETF組合基金A不配息(台幣)(本基金之配息來源可能為本金)",
     "isin": "TW000T1259A8",
     "currency": "TWD",
     "risk": 4,
@@ -244,7 +244,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "00910",
-    "name": "第一金太空衛星",
+    "name": "第一金太空衛星ETF",
     "isin": "",
     "currency": "TWD",
     "risk": 4,
@@ -292,7 +292,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "98639616",
-    "name": "PGIM保德信美國投資級企業債",
+    "name": "PGIM保德信美國投資級企業債券基金-累積型(台幣)(本基金有一定比重得投資於非投資等級之高風險債券且基金之配息來源可能為本金)",
     "isin": "TW000T0842A2",
     "currency": "TWD",
     "risk": 4,
@@ -304,7 +304,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "98641524",
-    "name": "華南永昌全球投資等級債券",
+    "name": "華南永昌全球投資等級債券基金A不配息(台幣)(本基金配息來源可能為本金)",
     "isin": "TW000T1286A1",
     "currency": "TWD",
     "risk": 4,
@@ -316,7 +316,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "C0054057",
-    "name": "法盛盧米斯賽勒斯投資級債",
+    "name": "法盛盧米斯賽勒斯投資等級債券基金R/A USD",
     "isin": "LU0411266801",
     "currency": "TWD",
     "risk": 4,
@@ -328,7 +328,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "00713",
-    "name": "元大台灣高息低波",
+    "name": "元大台灣高息低波ETF",
     "isin": "TW0000071303",
     "currency": "TWD",
     "risk": 4,
@@ -340,7 +340,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "83866508",
-    "name": "PGIM保德信中小型股基金",
+    "name": "PGIM保德信中小型股基金-A類型",
     "isin": "TW000T0810Y9",
     "currency": "TWD",
     "risk": 4,
@@ -376,7 +376,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "98636611",
-    "name": "PGIM保德信全球中小基金",
+    "name": "PGIM保德信全球中小基金(台幣)",
     "isin": "TW000T0817Y4",
     "currency": "TWD",
     "risk": 4,
@@ -400,7 +400,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "C0054121",
-    "name": "法盛-盧米斯賽勒斯債券基金",
+    "name": "法盛-盧米斯賽勒斯債券基金R/DG USD(本基金有相當比重投資於非投資等級之高風險債券且基金之配息來源可能為本金)",
     "isin": "IE000D6HVBY0",
     "currency": "TWD",
     "risk": 4,
@@ -412,7 +412,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "006201",
-    "name": "元大富櫃50",
+    "name": "元大富櫃50ETF",
     "isin": "TW0000062013",
     "currency": "TWD",
     "risk": 4,
@@ -424,7 +424,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "01032183",
-    "name": "PGIM保德信高成長基金",
+    "name": "PGIM保德信高成長基金-A類型",
     "isin": "TW000T0802Y6",
     "currency": "TWD",
     "risk": 4,
@@ -448,7 +448,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "98639403",
-    "name": "元大台灣卓越50ETF連結基金",
+    "name": "元大台灣卓越50ETF連結基金A不配息(台幣)",
     "isin": "TW000T05B2A6",
     "currency": "TWD",
     "risk": 4,
@@ -460,7 +460,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "98642116",
-    "name": "中國信託美國聚焦成長基金",
+    "name": "中國信託美國聚焦成長基金-A累積型(台幣)",
     "isin": "TW000T2628A3",
     "currency": "TWD",
     "risk": 4,
@@ -472,7 +472,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "01031699",
-    "name": "統一全天候基金-A類型",
+    "name": "統一全天候基金",
     "isin": "TW000T0902Y4",
     "currency": "TWD",
     "risk": 4,
@@ -484,7 +484,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "98641594",
-    "name": "中國信託成長轉機多重資產",
+    "name": "中國信託成長轉機多重資產基金-A累積型(台幣)(本基金有相當比重投資於非投資等級之高風險債券且本基金之配息來源可能為本金)",
     "isin": "TW000T2625A9",
     "currency": "TWD",
     "risk": 4,
@@ -496,7 +496,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "009803",
-    "name": "保德信市值動能50",
+    "name": "保德信市值動能50ETF",
     "isin": "TW0000098033",
     "currency": "TWD",
     "risk": 4,
@@ -544,7 +544,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "98642010",
-    "name": "台新美日台半導體基金",
+    "name": "台新美日台半導體基金-A不配息(台幣)",
     "isin": "TW000T4775A0",
     "currency": "TWD",
     "risk": 4,
@@ -556,7 +556,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "C0115024",
-    "name": "法盛AI及機器人基金",
+    "name": "法盛AI及機器人基金R/A USD",
     "isin": "LU1923623000",
     "currency": "TWD",
     "risk": 4,
@@ -568,7 +568,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "98638079",
-    "name": "統一全球新科技基金",
+    "name": "統一全球新科技基金(台幣)",
     "isin": "TW000T0933A9",
     "currency": "TWD",
     "risk": 4,
@@ -580,7 +580,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "0050",
-    "name": "元大台灣50",
+    "name": "元大台灣50ETF",
     "isin": "TW0000050000",
     "currency": "TWD",
     "risk": 4,
@@ -592,7 +592,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "C0054008",
-    "name": "法盛漢瑞斯全球股票基金",
+    "name": "法盛漢瑞斯全球股票基金R/A USD",
     "isin": "LU0130103400",
     "currency": "TWD",
     "risk": 4,
@@ -616,7 +616,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "98641172",
-    "name": "元大全球優質龍頭平衡基金",
+    "name": "元大全球優質龍頭平衡基金A不配息(台幣)",
     "isin": "TW000T05B6A7",
     "currency": "TWD",
     "risk": 4,
@@ -628,7 +628,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "98640076",
-    "name": "中國信託越南機會基金",
+    "name": "中國信託越南機會基金(台幣)",
     "isin": "TW000T2691A1",
     "currency": "TWD",
     "risk": 4,
@@ -639,7 +639,7 @@ export const MOCK_FUNDS: Fund[] = [
     "perf3y": "+35.2%"
   },
   {
-    "code": "986371051",
+    "code": "98637051",
     "name": "PGIM保德信拉丁美洲基金",
     "isin": "TW000T0830Y7",
     "currency": "TWD",
@@ -652,7 +652,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "98641587",
-    "name": "元大日本龍頭企業基金",
+    "name": "元大日本龍頭企業基金A不配息(台幣)",
     "isin": "TW000T05C1A7",
     "currency": "TWD",
     "risk": 4,
@@ -664,7 +664,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "009810",
-    "name": "保德信全球跨國藍籌100",
+    "name": "保德信全球跨國藍籌100ETF",
     "isin": "TW0000098108",
     "currency": "TWD",
     "risk": 4,
@@ -676,7 +676,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "98638122",
-    "name": "PGIM保德信多元收益組合基金",
+    "name": "PGIM保德信多元收益組合基金-月配息型(台幣)(本基金配息來源可能為本金)",
     "isin": "TW000T0837B0",
     "currency": "TWD",
     "risk": 4,
@@ -688,7 +688,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "98642423",
-    "name": "中國信託策略優利多重資產",
+    "name": "中國信託策略優利多重資產基金-B分配型(台幣)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金且基金並無保證收益及配息)",
     "isin": "TW000T2629B9",
     "currency": "TWD",
     "risk": 4,
@@ -700,7 +700,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "98641177",
-    "name": "PGIM保德信全球生態友善ESG",
+    "name": "PGIM保德信全球生態友善ESG多重資產基金-月配息型(台幣)(本基金有相當比重投資於非投資等級之高風險債券且基金之配息來源可能為本金)",
     "isin": "TW000T0848B7",
     "currency": "TWD",
     "risk": 4,
@@ -712,7 +712,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "98638532",
-    "name": "元大亞太優質高股息100指數",
+    "name": "元大亞太優質高股息100指數基金B配息(台幣)(基金之收益分配由經理公司得依收益之情況自行決定當季配息型受益權單位配息與否及分配之金額，故每季分配之金額並非一定相同且並無保證收益及配息)",
     "isin": "TW000T05A7B4",
     "currency": "TWD",
     "risk": 4,
@@ -724,7 +724,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "98637275",
-    "name": "台新北美收益資產證券化基金",
+    "name": "台新北美收益資產證券化基金-B配息(台幣)(本基金配息來源可能為本金)",
     "isin": "TW000T4717B0",
     "currency": "TWD",
     "risk": 4,
@@ -736,7 +736,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "98639936",
-    "name": "中國信託亞太實質收息多重",
+    "name": "中國信託亞太實質收息多重資產基金-B分配型(台幣)(基金之配息來源可能為本金且基金並無保證收益及配息)",
     "isin": "TW000T2683B6",
     "currency": "TWD",
     "risk": 4,
@@ -748,7 +748,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "00646",
-    "name": "元大S&P500",
+    "name": "元大S&P500ETF",
     "isin": "TW0000064605",
     "currency": "TWD",
     "risk": 4,
@@ -760,7 +760,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "98640605",
-    "name": "PGIM美元非投資等級債券",
+    "name": "PGIM保德信美元非投資等級債券基金-月配息型(台幣)(本基金之配息來源可能為本金)",
     "isin": "TW000T0845C1",
     "currency": "USD",
     "risk": 4,
@@ -784,7 +784,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "98639310",
-    "name": "台新優先順位資產抵押非投等",
+    "name": "台新優先順位資產抵押非投資等級債券基金-B配息(台幣)(本基金之配息來源可能為本金)",
     "isin": "TW000T4761B8",
     "currency": "TWD",
     "risk": 4,
@@ -796,7 +796,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "98639036",
-    "name": "PGIM保德信印度機會債券基金",
+    "name": "PGIM保德信印度機會債券基金-月配息型(台幣)(本基金有相當比重投資於非投資等級之高風險債券且基金之配息來源可能為本金)",
     "isin": "TW000T0841B2",
     "currency": "TWD",
     "risk": 4,
@@ -808,7 +808,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "98637868",
-    "name": "統一亞洲非投資等級債券基金",
+    "name": "統一亞洲非投資等級債券基金-月配型(台幣)(基金之配息來源可能為本金)",
     "isin": "TW000T0932B9",
     "currency": "TWD",
     "risk": 4,
@@ -820,7 +820,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "98641204",
-    "name": "台新美國策略時機非投等債",
+    "name": "台新美國策略時機非投資等級債券基金-B配息(台幣)(本基金之配息來源可能為本金)",
     "isin": "TW000T4772B5",
     "currency": "TWD",
     "risk": 4,
@@ -832,7 +832,7 @@ export const MOCK_FUNDS: Fund[] = [
   },
   {
     "code": "0056",
-    "name": "元大高股息",
+    "name": "元大高股息ETF",
     "isin": "TW0000056007",
     "currency": "TWD",
     "risk": 4,
