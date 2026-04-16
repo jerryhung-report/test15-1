@@ -24,7 +24,7 @@ const openExternalLink = () => {
         <p class="text-[16px]">口袋投顧 獨立經營管理</p>
         <p class="hidden sm:block">公司名稱：口袋證券投資顧問股份有限公司｜金管會核准字號：114年金管投顧新字第029號</p>
         <p class="hidden sm:block">服務時間：09:00-17:00｜地址：220 新北市板橋區文化路一段266號11樓之3</p>
-        <p class="hidden sm:block">電話：02-7755-3308｜電子郵件：service@cmoneyfund.com.tw</p>
+        <p class="hidden sm:block">電話：02-7755-3308｜電子郵件：<a href="mailto:service@cmoneyfund.com.tw" class="hover:underline">service@cmoneyfund.com.tw</a></p>
         
         <div class="sm:hidden space-y-1">
           <p>公司名稱：口袋證券投資顧問股份有限公司</p>
@@ -32,7 +32,7 @@ const openExternalLink = () => {
           <p>服務時間：09:00-17:00</p>
           <p>地址：220 新北市板橋區文化路一段266號11樓之3</p>
           <p>電話：02-7755-3308</p>
-          <p>電子郵件：service@cmoneyfund.com.tw</p>
+          <p>電子郵件：<a href="mailto:service@cmoneyfund.com.tw" class="hover:underline">service@cmoneyfund.com.tw</a></p>
         </div>
 
         <hr class="border-slate-200/30 mt-[0.5em] mb-6" />
