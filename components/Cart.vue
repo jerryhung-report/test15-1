@@ -66,6 +66,7 @@ const openSubscription = () => {
             @toggle="$emit('toggle', f.code)" 
             :external-link="f.code === mapping.etf ? ETF_LINKS[f.code] : undefined"
             :is-selectable="f.code !== mapping.etf"
+            :show-etf-disclaimer="f.code === mapping.etf"
           />
         </div>
       </div>

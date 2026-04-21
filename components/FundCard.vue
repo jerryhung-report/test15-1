@@ -8,8 +8,10 @@ const props = withDefaults(defineProps<{
   isSelected: boolean;
   externalLink?: string;
   isSelectable?: boolean;
+  showEtfDisclaimer?: boolean;
 }>(), {
-  isSelectable: true
+  isSelectable: true,
+  showEtfDisclaimer: false
 });
 
 const emit = defineEmits<{
@@ -77,6 +79,7 @@ const formattedNameParts = computed(() => {
               <span v-if="part.isWarning" class="font-bold">{{ part.text }}</span>
               <span v-else class="font-medium">{{ part.text }}</span>
             </template>
+            <span v-if="showEtfDisclaimer" class="font-bold">「本公司非證券/ETF銷售機構，本公司不提供委託買賣、款券交割，ETF交易均須透過口袋證券辦理，請投資人交易前並審慎評估投資風險。」</span>
           </h4>
           <p class="text-[12px] sm:text-[14px] text-slate-500 leading-relaxed font-medium max-w-4xl">{{ fund.desc }}</p>
         </div>
