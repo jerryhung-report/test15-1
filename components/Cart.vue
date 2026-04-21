@@ -48,6 +48,7 @@ const openSubscription = () => {
             :fund="f" 
             :is-selected="selected.includes(f.code)" 
             @toggle="$emit('toggle', f.code)" 
+            :show-etf-disclaimer="!!ETF_LINKS[f.code]"
           />
         </div>
       </div>
@@ -64,9 +65,9 @@ const openSubscription = () => {
             :fund="f" 
             :is-selected="selected.includes(f.code)" 
             @toggle="$emit('toggle', f.code)" 
-            :external-link="f.code === mapping.etf ? ETF_LINKS[f.code] : undefined"
-            :is-selectable="f.code !== mapping.etf"
-            :show-etf-disclaimer="f.code === mapping.etf"
+            :external-link="ETF_LINKS[f.code]"
+            :is-selectable="!ETF_LINKS[f.code]"
+            :show-etf-disclaimer="!!ETF_LINKS[f.code]"
           />
         </div>
       </div>
