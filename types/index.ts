@@ -12,6 +12,7 @@ export interface Fund {
   perf: string;
   perf2y?: string;
   perf3y?: string;
+  warning?: string;
 }
 
 export interface Question {

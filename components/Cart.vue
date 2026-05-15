@@ -17,10 +17,8 @@ const emit = defineEmits<{
 
 const mapping = computed(() => FUND_MAPPING[props.persona.title] || { core: [], sat: [], etf: "" });
 const coreFunds = computed(() => MOCK_FUNDS.filter(f => mapping.value.core.includes(f.code)));
-const satelliteFunds = computed(() => [
-  ...MOCK_FUNDS.filter(f => mapping.value.sat.includes(f.code)),
-  ...MOCK_FUNDS.filter(f => f.code === mapping.value.etf)
-]);
+const satelliteFunds = computed(() => MOCK_FUNDS.filter(f => mapping.value.sat.includes(f.code)));
+const etfFund = computed(() => MOCK_FUNDS.find(f => f.code === mapping.value.etf));
 
 const openSubscription = () => {
   window.open("https://dev-fund.cmoneyfund.com.tw/transaction", "_blank");
@@ -68,6 +66,24 @@ const openSubscription = () => {
             :external-link="ETF_LINKS[f.code]"
             :is-selectable="!ETF_LINKS[f.code]"
             :show-etf-disclaimer="!!ETF_LINKS[f.code]"
+          />
+        </div>
+      </div>
+
+      <!-- ETF Section -->
+      <div v-if="etfFund" class="space-y-8">
+        <div class="flex items-center gap-4 px-2 border-b border-slate-200 pb-4">
+          <ShoppingCart :size="32" class="text-[#D21118]" />
+          <h3 class="text-3xl font-black text-slate-900">ETF配置</h3>
+        </div>
+        <div class="flex flex-col gap-8">
+          <FundCard 
+            :fund="etfFund" 
+            :is-selected="selected.includes(etfFund.code)" 
+            @toggle="$emit('toggle', etfFund.code)" 
+            :external-link="ETF_LINKS[etfFund.code]"
+            :is-selectable="false"
+            :show-etf-disclaimer="true"
           />
         </div>
       </div>

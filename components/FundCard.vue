@@ -23,7 +23,7 @@ const handleNameClick = (e: Event) => {
   if (props.externalLink) {
     window.open(props.externalLink, '_blank');
   } else {
-    window.open(`https://dev-fund.cmoneyfund.com.tw/fund-introduction/${props.fund.code}/performance-nav`, '_blank');
+    window.open(`https://my.cmoneyfund.com.tw/fund-introduction/${props.fund.code}/performance-nav`, '_blank');
   }
 };
 
@@ -37,14 +37,13 @@ const handleClick = () => {
 
 const formattedNameParts = computed(() => {
   const name = props.fund.name;
-  const regex = /(\(本基金[^)]*\)|\(基金之[^)]*\))/g;
+  // Match common Taiwanese fund name warnings in both half-width () and full-width （） parentheses
+  const regex = /(\([^(^)]*(?:本基金|基金之|投資警語)[^)]*\)|（[^（^）]*(?:本基金|基金之|投資警語)[^）]*）)/g;
   const parts = name.split(regex);
   
   return parts.filter(part => part !== '').map(part => {
-    if (part.startsWith('(本基金') || part.startsWith('(基金之')) {
-      return { text: part, isWarning: true };
-    }
-    return { text: part, isWarning: false };
+    const isWarning = part.includes('本基金') || part.includes('基金之') || part.includes('投資警語');
+    return { text: part, isWarning };
   });
 });
 </script>
@@ -76,10 +75,11 @@ const formattedNameParts = computed(() => {
             class="text-[17px] sm:text-[26px] text-slate-900 leading-tight hover:text-[#D21118] transition-colors hover:underline"
           >
             <template v-for="(part, index) in formattedNameParts" :key="index">
-              <span v-if="part.isWarning" class="font-bold">{{ part.text }}</span>
+              <span v-if="part.isWarning" class="font-bold text-black">{{ part.text }}</span>
               <span v-else class="font-medium">{{ part.text }}</span>
             </template>
-            <span v-if="showEtfDisclaimer" class="font-bold">「本公司非證券/ETF銷售機構，本公司不提供委託買賣、款券交割，ETF交易均須透過口袋證券辦理，請投資人交易前審慎評估投資風險。」</span>
+            <span v-if="fund.warning" class="font-bold text-black ml-1">({{ fund.warning }})</span>
+            <span v-if="showEtfDisclaimer" class="font-bold text-black">「本公司非證券/ETF銷售機構，本公司不提供委託買賣、款券交割，ETF交易均須透過口袋證券辦理，請投資人交易前審慎評估投資風險。」</span>
           </h4>
           <p class="text-[12px] sm:text-[14px] text-slate-500 leading-relaxed font-medium max-w-4xl">{{ fund.desc }}</p>
         </div>
